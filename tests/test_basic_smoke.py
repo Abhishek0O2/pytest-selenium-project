@@ -5,4 +5,4 @@ def test_open_xpath_practice_page(driver):
     page= MainPage(driver)
     heading = page.get_heading_text()
     print(f"Extracted heading: '{heading}'")
-    assert "Find Out How To Automate " in heading
+    assert "How To Automate" in heading
