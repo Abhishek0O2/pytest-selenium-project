@@ -11,6 +11,7 @@ class MainPage(BasePage):
 
     def get_heading_text(self):
         return self.driver.find_element(*self.HEADING).text
+        # By using *self Python unpacks the tuple into individual arguments: driver.find_element(By.XPATH, "//*[contains(text(), 'how to automate')]")
 
     def open_modal(self):
         btn = self.driver.find_element(*self.OPEN_MODAL_BUTTON)
