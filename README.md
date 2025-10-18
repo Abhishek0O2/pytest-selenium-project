@@ -1,8 +1,8 @@
 # pytest-selenium-project
-Overview
+# Overview
 This repository contains a robust, educational automation framework using Selenium with Pytest in Python, targeting the SelectorsHub XPath Practice Page.
 
-Designed for:
+# Designed for:
 
 Building solid automation skills via hands-on scenarios (UI, DOM, tables, modals).
 
@@ -10,8 +10,8 @@ Deepening Python concepts (list comprehensions, sets, lambda, iteration) by conn
 
 Scalable Page Object Model structure—locators and actions live in page classes for maintainability.
 
-Scenarios Covered
-1. Heading Assertion
+# Scenarios Covered
+# 1. Heading Assertion
 Skills: Robust locator design, inheritance, page object basics
 
 Actions:
@@ -30,7 +30,7 @@ The importance of constructor (__init__) for passing shared dependencies (driver
 
 Encapsulating locators and actions
 
-2. Modal Popups and Tab Handling
+# 2. Modal Popups and Tab Handling
 Skills: Handling overlays, popups, tab/window context switching
 
 Actions:
@@ -51,7 +51,7 @@ Lambda functions and list comprehensions for dynamic waits
 
 Window handle management—robust extraction and switching
 
-3. Data Table Extraction and Assertion
+# 3. Data Table Extraction and Assertion
 Skills: Semantic HTML table extraction, mapping UI columns to data
 
 Actions:
@@ -70,7 +70,7 @@ List vs dict extraction for richer data mapping
 
 Safe indexing, cleanup, and casing transformations
 
-4. Dropdowns, Disabled Elements, Alerts, and Complex Element Handling
+# 4. Dropdowns, Disabled Elements, Alerts, and Complex Element Handling
 (Template section for you to fill as you encounter real cases!)
 
 Skills: Select option interactions, toggling enabled/disabled, interacting with JS alerts, handling nested and dynamic DOM nodes
@@ -93,7 +93,7 @@ Higher-order functions for flexible element waits
 
 Generator expressions for data-driven validation
 
-5. Frame, Shadow DOM, and Virtualization Challenges
+# 5. Frame, Shadow DOM, and Virtualization Challenges
 (Advanced section, add as you reach these!)
 
 Skills: Entering and switching frames, traversing shadow roots
@@ -112,7 +112,7 @@ Context managers (with for resource control)
 
 Recursive data extraction
 
-Structure
+# Structure
 text
 /pages
     base_page.py   # shared helpers, driver reference
@@ -135,7 +135,7 @@ text
 pytest tests/
 Page Objects let you add/modify locators and actions centrally for all scenarios.
 
-Learning Approach
+# Learning Approach
 Every test case doubles as a Python lesson—see comments for:
 
 List comprehensions and iteration tricks
@@ -146,12 +146,12 @@ Set operations and window handle logic
 
 Data modeling via dicts, rows, or custom classes
 
-How To Extend
+# How To Extend
 Add scenarios by creating new test files and action methods in MainPage.
 
 Try advanced UI features (alerts, shadow DOM, dropdowns, dynamic elements) and apply new Python features.
 
 Use this repo as a template for real-world automation on evolving web pages.
 
-Contributing
+# Contributing
 Contributions welcome—open issues or PRs for new scenarios, page objects, or deeper Python integration examples!
