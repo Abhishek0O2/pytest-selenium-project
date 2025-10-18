@@ -20,6 +20,8 @@ class MainTable(BasePage):
     def get_table_rows(self):
         # Get all non-header rows (tbody/tr)
         table = self.driver.find_element(*self.USER_TABLE)
+        # By using *self Python unpacks the tuple into individual arguments: driver.find_element(By.XPATH,"//table[.//th[contains(.,'Username')]]")
+
         return table.find_elements(By.XPATH, ".//tbody/tr")
     # ".//tbody/tr"
     #
